@@ -10,7 +10,7 @@ export * from './WABinary'
 
 export type WALegacySocket = ReturnType<typeof makeWALegacySocket>
 
-export { makeWALegacySocket }
+export { makeWALegacySocket, makeWASocket }
 
 export type WASocket = ReturnType<typeof makeWASocket>
 
